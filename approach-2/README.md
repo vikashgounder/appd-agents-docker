@@ -4,7 +4,7 @@ The approach in this app is to download the AppDynamics NodeJS agent offline and
 
 ## Download the AppDynamics NodeJS Agent AppDynamics Download Portal
 
-Download the AppDynamics NodeJS Agent from AppDynamics Download Portal https://accounts.appdynamics.com/downloads
+Download the AppDynamics NodeJS Agent from AppDynamics Download Portal https://accounts.appdynamics.com/downloads <br />
 Copy the downloaded agent to `appd-agent` directory
 
 ```bash
