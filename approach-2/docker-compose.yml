@@ -1,0 +1,11 @@
+version: '3.5'
+services:
+    nodejs-docker:
+        build: .
+        container_name: sample-nodejs-app-appd-agent-approach2
+        hostname: sample-nodejs-app-appd-agent-approach2
+        image: sample-nodejs-app-appd-agent-approach2
+        env_file: 
+            - monitoring/appdynamics.env
+        ports:
+            - "8080:8080"

@@ -1,0 +1,13 @@
+{
+  "name": "Sample NodeJS with AppD",
+  "version": "0.01",
+  "description": "Node.js with Appdynamics agent on Docker",
+  "author": "Vikash Gounder <vgounder@cisco.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}

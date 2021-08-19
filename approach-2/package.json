@@ -1,0 +1,14 @@
+{
+  "name": "sample-nodejs-with-appd-agent-approach2",
+  "version": "1.0.0",
+  "description": "NodeJS Sample App with AppD Agent on Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Vikash Gounder <vgounder@cisco.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
