@@ -2,7 +2,7 @@
 
 // load appdynamics 
 const appd = require('appdynamics');
-/*
+
 appd.profile({
   controllerHostName: process.env.controllerHostName,
   controllerPort: process.env.controllerPort || 443,
@@ -38,7 +38,7 @@ appd.profile({
       }
     ]
   }
-}); */
+}); 
 
 const express = require('express');
 const app = express();
